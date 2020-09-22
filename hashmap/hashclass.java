@@ -15,6 +15,9 @@ public class hashclass
 		//print out the whole thing as such
 		System.out.println(capitalCities);
 
+		//Checks if a key is there #IMPORTANT FOR COMPETITIVE CODING QUESTIONS
+		System.out.println(capitalCities.containsKey("India"));
+
 		//Access an item
 		System.out.println(capitalCities.get("England")); //Returns value under the key named England
 
